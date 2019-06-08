@@ -12,7 +12,7 @@
     <artifactId>gmall-pms</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>gmall-pms</name>
-    <description>Product Manage System</description>
+    <description>Product Manage System：商品管理系统</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -34,6 +34,18 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.devil.gmall</groupId>
+            <artifactId>gmall-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.1.0</version>
         </dependency>
     </dependencies>
 
