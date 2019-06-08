@@ -11,7 +11,11 @@
     <modules>
         <module>gmall-common</module>
         <module>gmall-api</module>
+        <module>gmall-cms</module>
+        <module>gmall-oms</module>
         <module>gmall-pms</module>
+        <module>gmall-sms</module>
+        <module>gmall-ums</module>
         <module>gmall-admin-web</module>
     </modules>
 
