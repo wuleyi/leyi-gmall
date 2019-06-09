@@ -2,6 +2,9 @@ package org.devil.gmall.pms.mapper;
 
 import org.devil.gmall.pms.entity.ProductCategory;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.devil.gmall.pms.vo.PmsProductMultiCategoryVo;
+
+import java.util.List;
 
 /**
  * <p>
@@ -12,5 +15,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  * @since 2019-06-08
  */
 public interface ProductCategoryMapper extends BaseMapper<ProductCategory> {
+
+    List<PmsProductMultiCategoryVo> selectWithChild(Integer i);
 
 }

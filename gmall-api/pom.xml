@@ -31,6 +31,20 @@
             <!--可选依赖，只是为了防止工程mp的注解报错问题-->
             <optional>true</optional>
         </dependency>
+
+        <dependency>
+            <groupId>net.logstash.logback</groupId>
+            <artifactId>logstash-logback-encoder</artifactId>
+            <version>5.3</version>
+        </dependency>
+
+        <!-- 防止vo中validation类型注解不报错 -->
+        <dependency>
+            <groupId>javax.validation</groupId>
+            <artifactId>validation-api</artifactId>
+            <version>2.0.1.Final</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
 </project>
